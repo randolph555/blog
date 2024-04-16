@@ -2,15 +2,5 @@
     "title":"Blog",
     "subTitle":"Blog description",
     "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
-    "GMEEK_VERSION":"last",
-    "displayTitle":"randolph555",
-    "homeUrl":"https://github.com/randolph555",
-    "i18n":"CN",
-    "UTC":8,
-    "themeMode":"manual",
-    "dayTheme":"light",
-    "nightTheme":"dark_colorblind",
-    "urlMode":"pinyin",
-    "showPostSource":"1",
-    "rssSplit":"sentence"
+    "GMEEK_VERSION":"last"
 }
