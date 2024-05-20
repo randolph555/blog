@@ -9,39 +9,9 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="代理腾讯云端口：  ssh -fN tencent_port_proxy
-
-![image](https://github.com/randolph555/blog/assets/22696026/cc25676d-5969-4dfa-816b-c85b1f8b5ec1)
-
-
-查看后台挂起服务
-
-![image](https://github.com/randolph555/blog/assets/22696026/ad98fe4e-7138-4691-a658-92ef1d50ce67)
-
-
-查看端口是否监听
-![image](https://github.com/randolph555/blog/assets/22696026/56d5e447-42f8-403f-b88f-580e2f152565)
-
-
-验证是否可以连接
-mysql -A -h 127.0.0.1 -P 3306 -u superset -p。">
+<meta name="description" content="希望在B云服务器上访问，A云服务器上部署mysql、redis等服务，并且A云服务器端口是未对外开放的。">
 <meta property="og:title" content="ssh多云端口转发">
-<meta property="og:description" content="代理腾讯云端口：  ssh -fN tencent_port_proxy
-
-![image](https://github.com/randolph555/blog/assets/22696026/cc25676d-5969-4dfa-816b-c85b1f8b5ec1)
-
-
-查看后台挂起服务
-
-![image](https://github.com/randolph555/blog/assets/22696026/ad98fe4e-7138-4691-a658-92ef1d50ce67)
-
-
-查看端口是否监听
-![image](https://github.com/randolph555/blog/assets/22696026/56d5e447-42f8-403f-b88f-580e2f152565)
-
-
-验证是否可以连接
-mysql -A -h 127.0.0.1 -P 3306 -u superset -p。">
+<meta property="og:description" content="希望在B云服务器上访问，A云服务器上部署mysql、redis等服务，并且A云服务器端口是未对外开放的。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://randolph555.github.io/blog/post/ssh-duo-yun-duan-kou-zhuan-fa.html">
 <meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
@@ -100,7 +70,11 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>代理腾讯云端口：  ssh -fN tencent_port_proxy</p>
+<div class="markdown-body" id="postBody"><p>希望在B云服务器上访问，A云服务器上部署mysql、redis等服务，并且A云服务器端口是未对外开放的。</p>
+<p>在B云服务器上执行配置查看以下操作：</p>
+<p>###首先要完成ssh打通。</p>
+<p>#############################################</p>
+<p>代理腾讯云端口：  ssh -fN tencent_port_proxy</p>
 <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/randolph555/blog/assets/22696026/cc25676d-5969-4dfa-816b-c85b1f8b5ec1"><img src="https://github.com/randolph555/blog/assets/22696026/cc25676d-5969-4dfa-816b-c85b1f8b5ec1" alt="image" style="max-width: 100%;"></a></p>
 <p>查看后台挂起服务</p>
 <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/randolph555/blog/assets/22696026/ad98fe4e-7138-4691-a658-92ef1d50ce67"><img src="https://github.com/randolph555/blog/assets/22696026/ad98fe4e-7138-4691-a658-92ef1d50ce67" alt="image" style="max-width: 100%;"></a></p>
