@@ -1,5 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog</title><link>https://randolph555.github.io/blog</link><description>Blog description</description><copyright>Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://randolph555.github.io/blog</link></image><lastBuildDate>Tue, 30 Apr 2024 06:22:06 +0000</lastBuildDate><managingEditor>Blog</managingEditor><ttl>60</ttl><webMaster>Blog</webMaster><item><title>zsh安装</title><link>https://randolph555.github.io/blog/post/zsh-an-zhuang.html</link><description># 使用 curl 安装&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog</title><link>https://randolph555.github.io/blog</link><description>Blog description</description><copyright>Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://randolph555.github.io/blog</link></image><lastBuildDate>Mon, 20 May 2024 08:03:15 +0000</lastBuildDate><managingEditor>Blog</managingEditor><ttl>60</ttl><webMaster>Blog</webMaster><item><title>ssh多云端口转发</title><link>https://randolph555.github.io/blog/post/ssh-duo-yun-duan-kou-zhuan-fa.html</link><description>代理腾讯云端口：  ssh -fN tencent_port_proxy&#13;
+&#13;
+![image](https://github.com/randolph555/blog/assets/22696026/cc25676d-5969-4dfa-816b-c85b1f8b5ec1)&#13;
+&#13;
+&#13;
+查看后台挂起服务&#13;
+&#13;
+![image](https://github.com/randolph555/blog/assets/22696026/ad98fe4e-7138-4691-a658-92ef1d50ce67)&#13;
+&#13;
+&#13;
+查看端口是否监听&#13;
+![image](https://github.com/randolph555/blog/assets/22696026/56d5e447-42f8-403f-b88f-580e2f152565)&#13;
+&#13;
+&#13;
+验证是否可以连接&#13;
+mysql -A -h 127.0.0.1 -P 3306 -u superset -p。</description><guid isPermaLink="true">https://randolph555.github.io/blog/post/ssh-duo-yun-duan-kou-zhuan-fa.html</guid><pubDate>Mon, 20 May 2024 08:02:48 +0000</pubDate></item><item><title>zsh安装</title><link>https://randolph555.github.io/blog/post/zsh-an-zhuang.html</link><description># 使用 curl 安装&#13;
 sh -c "$(curl -fsSL https://gitee.com/pocmon/ohmyzsh/raw/master/tools/install.sh)"&#13;
 &#13;
 # 使用 wget 安装&#13;
