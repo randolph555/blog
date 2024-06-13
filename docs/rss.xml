@@ -1,5 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog</title><link>https://randolph555.github.io/blog</link><description>Blog description</description><copyright>Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://randolph555.github.io/blog</link></image><lastBuildDate>Tue, 28 May 2024 16:16:05 +0000</lastBuildDate><managingEditor>Blog</managingEditor><ttl>60</ttl><webMaster>Blog</webMaster><item><title>ssh多云端口转发</title><link>https://randolph555.github.io/blog/post/ssh-duo-yun-duan-kou-zhuan-fa.html</link><description>希望在B云服务器上访问，A云服务器上部署mysql、redis等服务，并且A云服务器端口是未对外开放的。</description><guid isPermaLink="true">https://randolph555.github.io/blog/post/ssh-duo-yun-duan-kou-zhuan-fa.html</guid><pubDate>Mon, 20 May 2024 08:02:48 +0000</pubDate></item><item><title>zsh安装</title><link>https://randolph555.github.io/blog/post/zsh-an-zhuang.html</link><description># 使用 curl 安装&#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog</title><link>https://randolph555.github.io/blog</link><description>Blog description</description><copyright>Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://randolph555.github.io/blog</link></image><lastBuildDate>Thu, 13 Jun 2024 07:03:31 +0000</lastBuildDate><managingEditor>Blog</managingEditor><ttl>60</ttl><webMaster>Blog</webMaster><item><title>Flink-CDC</title><link>https://randolph555.github.io/blog/post/Flink-CDC.html</link><description>数据同步方向 ：mysql-&gt;starRocks &#13;
+&#13;
+参考资料：&#13;
+https://nightlies.apache.org/flink/flink-cdc-docs-release-3.1/zh/docs/get-started/quickstart/mysql-to-starrocks/&#13;
+https://docs.starrocks.io/docs/loading/Flink_cdc_load/&#13;
+&#13;
+查看java版本&#13;
+java -version&#13;
+下载并解压 [Flink](https://flink.apache.org/downloads.html)&#13;
+cd /opt&#13;
+wget https://archive.apache.org/dist/flink/flink-1.18.0/flink-1.18.0-bin-scala_2.12.tgz&#13;
+&#13;
+如果apache太慢，改为清华源&#13;
+wget https://mirrors.tuna.tsinghua.edu.cn/apache/flink/flink-1.18.1/flink-1.18.1-bin-scala_2.12.tgz&#13;
+解压文件&#13;
+tar -xzf flink-1.18.0-bin-scala_2.12.tgz&#13;
+进入Flink目录&#13;
+cd flink-1.18.0&#13;
+通过在 conf/flink-conf.yaml 配置文件追加下列参数开启 checkpoint，每隔 3 秒做一次 checkpoint。</description><guid isPermaLink="true">https://randolph555.github.io/blog/post/Flink-CDC.html</guid><pubDate>Thu, 13 Jun 2024 07:02:57 +0000</pubDate></item><item><title>ssh多云端口转发</title><link>https://randolph555.github.io/blog/post/ssh-duo-yun-duan-kou-zhuan-fa.html</link><description>希望在B云服务器上访问，A云服务器上部署mysql、redis等服务，并且A云服务器端口是未对外开放的。</description><guid isPermaLink="true">https://randolph555.github.io/blog/post/ssh-duo-yun-duan-kou-zhuan-fa.html</guid><pubDate>Mon, 20 May 2024 08:02:48 +0000</pubDate></item><item><title>zsh安装</title><link>https://randolph555.github.io/blog/post/zsh-an-zhuang.html</link><description># 使用 curl 安装&#13;
 sh -c '$(curl -fsSL https://gitee.com/pocmon/ohmyzsh/raw/master/tools/install.sh)'&#13;
 &#13;
 # 使用 wget 安装&#13;
