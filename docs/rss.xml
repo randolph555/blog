@@ -1,5 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog</title><link>https://randolph555.github.io/blog</link><description>Blog description</description><copyright>Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://randolph555.github.io/blog</link></image><lastBuildDate>Thu, 13 Jun 2024 07:06:18 +0000</lastBuildDate><managingEditor>Blog</managingEditor><ttl>60</ttl><webMaster>Blog</webMaster><item><title>Flink-CDC </title><link>https://randolph555.github.io/blog/post/Flink-CDC%20.html</link><description>数据同步方向 ：mysql-&gt;starRocks &#13;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog</title><link>https://randolph555.github.io/blog</link><description>Blog description</description><copyright>Blog</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://randolph555.github.io/blog</link></image><lastBuildDate>Thu, 14 Nov 2024 08:43:52 +0000</lastBuildDate><managingEditor>Blog</managingEditor><ttl>60</ttl><webMaster>Blog</webMaster><item><title>naabu端口扫描</title><link>https://randolph555.github.io/blog/post/naabu-duan-kou-sao-miao.html</link><description>1.安装&#13;
+$ brew install naabu&#13;
+&#13;
+2.验证&#13;
+$ naabu -version&#13;
+&#13;
+3.扫描&#13;
+naabu -host hackerone.com&#13;
+&#13;
+参考文档：&#13;
+https://github.com/projectdiscovery/naabu。</description><guid isPermaLink="true">https://randolph555.github.io/blog/post/naabu-duan-kou-sao-miao.html</guid><pubDate>Thu, 14 Nov 2024 08:23:50 +0000</pubDate></item><item><title>Flink-CDC </title><link>https://randolph555.github.io/blog/post/Flink-CDC%20.html</link><description>数据同步方向 ：mysql-&gt;starRocks &#13;
 &#13;
 参考资料：&#13;
 https://nightlies.apache.org/flink/flink-cdc-docs-release-3.1/zh/docs/get-started/quickstart/mysql-to-starrocks/&#13;
